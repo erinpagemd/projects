@@ -98,8 +98,43 @@ if (Meteor.isClient) {
         repo: 'https://github.com/erinpagemd/projects',
         stack: 'meteor.js, javascript',
         desc: 'Meteor project from scratch! Displaying coding projects.'
-      }
+      },
 
+      {
+        name: 'jQuery Basics',
+        picture: 'img/catanator.png',
+        link: 'http://erinpagemd.github.io/catanator/',
+        repo: 'https://github.com/erinpagemd/catanator',
+        stack: 'phaser.io',
+        desc: 'First dive into games! Adaptation of a phaser.io tutorial.'
+      },
+
+      {
+        name: 'Bank',
+        picture: 'img/catanator.png',
+        link: 'http://erinpagemd.github.io/catanator/',
+        repo: 'https://github.com/erinpagemd/catanator',
+        stack: 'phaser.io',
+        desc: 'First dive into games! Adaptation of a phaser.io tutorial.'
+      },
+
+      {
+        name: 'PushProduct',
+        picture: 'img/catanator.png',
+        link: 'http://erinpagemd.github.io/catanator/',
+        repo: 'https://github.com/erinpagemd/catanator',
+        stack: 'phaser.io',
+        desc: 'First dive into games! Adaptation of a phaser.io tutorial.'
+      },
+
+      {
+        name: 'SplitSum',
+        picture: 'img/catanator.png',
+        link: 'http://erinpagemd.github.io/catanator/',
+        repo: 'https://github.com/erinpagemd/catanator',
+        stack: 'phaser.io',
+        desc: 'First dive into games! Adaptation of a phaser.io tutorial.'
+      }      
     ]
   });
 
