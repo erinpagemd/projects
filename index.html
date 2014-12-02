@@ -1,0 +1,25 @@
+<head>
+  <title>Projects</title>
+</head>
+
+<body>
+  <h1>Projects</h1>
+
+  <ul>
+    {{#each projects}}
+      {{> project}}
+    {{/each}}
+  </ul>
+</body>
+
+<template name="project">
+  <div class='item'>
+    <img src='{{picture}}'/>
+    <p id='name'>{{name}}</p>
+    <p><a href='{{link}}'>Website</a></p>
+    <p><a href='{{repo}}'>Github Repo</a></p>
+    <p>Technologies used: {{stack}}</p>
+    <p>Description: {{desc}}</p>
+  </div>
+
+</template>
