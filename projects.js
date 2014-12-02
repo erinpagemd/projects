@@ -11,39 +11,84 @@ if (Meteor.isClient) {
       },
 
       {
-        name: 'Colors'
+        name: 'Colors',
+        picture: 'img/colors.png',
+        link: 'http://erinpagemd.github.io/colors/',
+        repo: 'https://github.com/erinpagemd/colors',
+        stack: 'javascript, css, html, jquery',
+        desc: 'CSS calls using jquery'
       },
 
       {
-        name: 'Pig Latin'
+        name: 'Pig Latin',
+        picture: 'img/colors.png',
+        link: 'http://erinpagemd.github.io/colors/',
+        repo: 'https://github.com/erinpagemd/colors',
+        stack: 'javascript, css, html, jquery',
+        desc: 'CSS calls using jquery'
       },
 
       {
-        name: 'Retirement Age'
+        name: 'Retirement Age',
+        picture: 'img/colors.png',
+        link: 'http://erinpagemd.github.io/colors/',
+        repo: 'https://github.com/erinpagemd/colors',
+        stack: 'javascript, css, html, jquery',
+        desc: 'CSS calls using jquery'
       },
 
       {
-        name: 'Palindrome'
+        name: 'Palindrome',
+        picture: 'img/colors.png',
+        link: 'http://erinpagemd.github.io/colors/',
+        repo: 'https://github.com/erinpagemd/colors',
+        stack: 'javascript, css, html, jquery',
+        desc: 'CSS calls using jquery'
       },
 
       {
-        name: 'To Do'
+        name: 'To Do',
+        picture: 'img/colors.png',
+        link: 'http://erinpagemd.github.io/colors/',
+        repo: 'https://github.com/erinpagemd/colors',
+        stack: 'javascript, css, html, jquery',
+        desc: 'CSS calls using jquery'
       },
 
       {
-        name: 'Appchiever'
+        name: 'Appchiever',
+        picture: 'img/colors.png',
+        link: 'http://erinpagemd.github.io/colors/',
+        repo: 'https://github.com/erinpagemd/colors',
+        stack: 'javascript, css, html, jquery',
+        desc: 'CSS calls using jquery'
       },
 
       {
-        name: 'Nashviva'
+        name: 'Nashviva',
+        picture: 'img/colors.png',
+        link: 'http://erinpagemd.github.io/colors/',
+        repo: 'https://github.com/erinpagemd/colors',
+        stack: 'javascript, css, html, jquery',
+        desc: 'CSS calls using jquery'
       },
 
       {
-        name: 'Codefornashville.org'
+        name: 'Codefornashville.org',
+        picture: 'img/colors.png',
+        link: 'http://erinpagemd.github.io/colors/',
+        repo: 'https://github.com/erinpagemd/colors',
+        stack: 'javascript, css, html, jquery',
+        desc: 'CSS calls using jquery'
       },
 
       {
-        name: 'Catanator'
+        name: 'Catanator',
+        picture: 'img/colors.png',
+        link: 'http://erinpagemd.github.io/colors/',
+        repo: 'https://github.com/erinpagemd/colors',
+        stack: 'javascript, css, html, jquery',
+        desc: 'CSS calls using jquery'
       }
     ]
   });
