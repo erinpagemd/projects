@@ -6,7 +6,7 @@ if (Meteor.isClient) {
         picture: 'img/javascriptCalculator.png',
         link: 'http://erinpagemd.github.io/JavascriptCalculator/',
         repo: 'https://github.com/erinpagemd/JavascriptCalculator',
-        stack: 'javascript',
+        stack: 'javascript, html, css',
         desc: 'Use of jquery and "this" in javascript'
       },
 
@@ -21,47 +21,47 @@ if (Meteor.isClient) {
 
       {
         name: 'Pig Latin',
-        picture: 'img/colors.png',
-        link: 'http://erinpagemd.github.io/colors/',
-        repo: 'https://github.com/erinpagemd/colors',
+        picture: 'img/piglatin.png',
+        link: 'http://erinpagemd.github.io/PigLatin/',
+        repo: 'https://github.com/erinpagemd/PigLatin',
         stack: 'javascript, css, html, jquery',
-        desc: 'CSS calls using jquery'
+        desc: 'Using a substring in javascript'
       },
 
       {
         name: 'Retirement Age',
-        picture: 'img/colors.png',
-        link: 'http://erinpagemd.github.io/colors/',
-        repo: 'https://github.com/erinpagemd/colors',
+        picture: 'img/retirementage.png',
+        link: 'http://erinpagemd.github.io/retirement_age/',
+        repo: 'https://github.com/erinpagemd/retirement_age',
         stack: 'javascript, css, html, jquery',
-        desc: 'CSS calls using jquery'
+        desc: 'dynamically add text based on specific criteria'
       },
 
       {
         name: 'Palindrome',
-        picture: 'img/colors.png',
-        link: 'http://erinpagemd.github.io/colors/',
-        repo: 'https://github.com/erinpagemd/colors',
+        picture: 'img/palindrome.png',
+        link: 'http://erinpagemd.github.io/Palindrome/',
+        repo: 'https://github.com/erinpagemd/Palindrome',
         stack: 'javascript, css, html, jquery',
-        desc: 'CSS calls using jquery'
+        desc: 'String to array and back in javascript. Use of join and reverse.'
       },
 
       {
         name: 'To Do',
-        picture: 'img/colors.png',
-        link: 'http://erinpagemd.github.io/colors/',
-        repo: 'https://github.com/erinpagemd/colors',
-        stack: 'javascript, css, html, jquery',
-        desc: 'CSS calls using jquery'
+        picture: 'img/todo.png',
+        link: 'http://erinpagemd_todos.meteor.com',
+        repo: 'https://github.com/erinpagemd/meteortodo',
+        stack: 'meteor.js, javascript',
+        desc: 'Tutorial for meteor.js'
       },
 
       {
         name: 'Appchiever',
-        picture: 'img/colors.png',
-        link: 'http://erinpagemd.github.io/colors/',
-        repo: 'https://github.com/erinpagemd/colors',
-        stack: 'javascript, css, html, jquery',
-        desc: 'CSS calls using jquery'
+        picture: 'img/appchiever.png',
+        link: 'http://appchiever.meteor.com',
+        repo: 'https://github.com/erinpagemd/appchiever',
+        stack: 'meteor.js, javascript',
+        desc: 'Adaptation of meteor tutorial. High School students can build a list of their activities for college applications.'
       },
 
       {
@@ -84,12 +84,22 @@ if (Meteor.isClient) {
 
       {
         name: 'Catanator',
+        picture: 'img/catanator.png',
+        link: 'http://erinpagemd.github.io/catanator/',
+        repo: 'https://github.com/erinpagemd/catanator',
+        stack: 'phaser.io',
+        desc: 'First dive into games! Adaptation of a phaser.io tutorial.'
+      },
+
+      {
+        name: 'Project Page',
         picture: 'img/colors.png',
         link: 'http://erinpagemd.github.io/colors/',
         repo: 'https://github.com/erinpagemd/colors',
         stack: 'javascript, css, html, jquery',
         desc: 'CSS calls using jquery'
       }
+
     ]
   });
 
