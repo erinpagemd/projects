@@ -65,21 +65,21 @@ if (Meteor.isClient) {
       },
 
       {
-        name: 'Nashviva',
-        picture: 'img/colors.png',
-        link: 'http://erinpagemd.github.io/colors/',
-        repo: 'https://github.com/erinpagemd/colors',
-        stack: 'javascript, css, html, jquery',
-        desc: 'CSS calls using jquery'
+        name: 'NashViva',
+        picture: 'img/nashviva.png',
+        link: 'http://nashviva.codefornashville.org/',
+        repo: 'https://github.com/code-for-nashville/nashviva',
+        stack: 'css, html',
+        desc: 'Created a website at HackNashville6 using the open data portal of Metro Nashville. Made in collaboration with other members of the Nashville Brigade. Contributed to CSS and HTML.'
       },
 
       {
         name: 'Codefornashville.org',
-        picture: 'img/colors.png',
-        link: 'http://erinpagemd.github.io/colors/',
-        repo: 'https://github.com/erinpagemd/colors',
-        stack: 'javascript, css, html, jquery',
-        desc: 'CSS calls using jquery'
+        picture: 'img/codefornashville.png',
+        link: 'http://www.codefornashville.org/',
+        repo: 'https://github.com/code-for-nashville/code-for-nashville.github.io',
+        stack: 'css, html, jekyll',
+        desc: 'Collaborated on website for the Nashville Brigade. Created the contact form, currently only on dev branch.'
       },
 
       {
@@ -93,11 +93,11 @@ if (Meteor.isClient) {
 
       {
         name: 'Project Page',
-        picture: 'img/colors.png',
-        link: 'http://erinpagemd.github.io/colors/',
-        repo: 'https://github.com/erinpagemd/colors',
-        stack: 'javascript, css, html, jquery',
-        desc: 'CSS calls using jquery'
+        picture: 'img/projects.png',
+        link: 'http://ep_projects.meteor.com/',
+        repo: 'https://github.com/erinpagemd/projects',
+        stack: 'meteor.js, javascript',
+        desc: 'Meteor project from scratch! Displaying coding projects.'
       }
 
     ]
