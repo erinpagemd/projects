@@ -123,7 +123,7 @@ if (Meteor.isClient) {
         picture: 'img/push.png',
         link: 'http://erinpagemd.github.io/PushProduct/',
         repo: 'https://github.com/erinpagemd/PushProduct',
-        stack: 'phaser.io',
+        stack: 'javascript, jquery, html, css',
         desc: 'Pushing items into an empty array in javascript.'
       },
 
