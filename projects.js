@@ -97,7 +97,7 @@ if (Meteor.isClient) {
         link: 'http://www.codefornashville.org/',
         repo: 'https://github.com/code-for-nashville/code-for-nashville.github.io',
         stack: 'css, html, jekyll',
-        desc: 'Collaborated on website for the Nashville Brigade. Created the contact form, currently only on dev branch.'
+        desc: 'Collaborated on website for the Nashville Brigade.'
       },
 
       {
