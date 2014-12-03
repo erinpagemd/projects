@@ -102,38 +102,38 @@ if (Meteor.isClient) {
 
       {
         name: 'jQuery Basics',
-        picture: 'img/catanator.png',
-        link: 'http://erinpagemd.github.io/catanator/',
-        repo: 'https://github.com/erinpagemd/catanator',
-        stack: 'phaser.io',
-        desc: 'First dive into games! Adaptation of a phaser.io tutorial.'
+        picture: 'img/jquery.png',
+        link: 'http://erinpagemd.github.io/jquery-basics/',
+        repo: 'https://github.com/erinpagemd/jquery-basics',
+        stack: 'jquery, javascript, css',
+        desc: 'Manipulating css via jquery'
       },
 
       {
         name: 'BankJS',
-        picture: 'img/catanator.png',
-        link: 'http://erinpagemd.github.io/catanator/',
-        repo: 'https://github.com/erinpagemd/catanator',
-        stack: 'phaser.io',
-        desc: 'First dive into games! Adaptation of a phaser.io tutorial.'
+        picture: 'img/bank.png',
+        link: 'http://erinpagemd.github.io/BankJS/',
+        repo: 'https://github.com/erinpagemd/BankJS',
+        stack: 'javascript, css, html',
+        desc: 'Using conditionals in javascript.'
       },
 
       {
         name: 'PushProduct',
-        picture: 'img/catanator.png',
-        link: 'http://erinpagemd.github.io/catanator/',
-        repo: 'https://github.com/erinpagemd/catanator',
+        picture: 'img/push.png',
+        link: 'http://erinpagemd.github.io/PushProduct/',
+        repo: 'https://github.com/erinpagemd/PushProduct',
         stack: 'phaser.io',
-        desc: 'First dive into games! Adaptation of a phaser.io tutorial.'
+        desc: 'Pushing items into an empty array in javascript.'
       },
 
       {
         name: 'SplitSum',
-        picture: 'img/catanator.png',
-        link: 'http://erinpagemd.github.io/catanator/',
-        repo: 'https://github.com/erinpagemd/catanator',
-        stack: 'phaser.io',
-        desc: 'First dive into games! Adaptation of a phaser.io tutorial.'
+        picture: 'img/split.png',
+        link: 'http://erinpagemd.github.io/SplitSum/',
+        repo: 'https://github.com/erinpagemd/SplitSum',
+        stack: 'javascript, jquery, css, html',
+        desc: 'Splitting characters in an array and turning them into numbers using javascript.'
       }
     ]
   });
