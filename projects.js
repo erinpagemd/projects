@@ -2,6 +2,15 @@ if (Meteor.isClient) {
   Template.body.helpers({
     projects: [
       {
+        name: 'Stock Quote API',
+        picture: 'img/stock.png',
+        link: 'http://erinpagemd.github.io/stock-api/',
+        repo: 'https://github.com/erinpagemd/stock-api',
+        stack: 'javascript, jquery, html, css, MarkitOnDemand API',
+        desc: 'Use of RESTful API to capture a stock quote, dynamically display the price. If the change in price is negative, the box will be red.'
+      },
+
+      {
         name: 'Catanator',
         picture: 'img/catanator.png',
         link: 'http://erinpagemd.github.io/catanator/',
