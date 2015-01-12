@@ -2,6 +2,15 @@ if (Meteor.isClient) {
   Template.body.helpers({
     projects: [
       {
+        name: 'Wordpress 2015 practice',
+        picture: 'img/wp2015.png',
+        link: 'http://erinpagemd.github.io/wordpress2015/',
+        repo: 'https://github.com/erinpagemd/wordpress2015',
+        stack: 'HTML, SCSS, Jade, CSS, Prepros, Git',
+        desc: 'CSS exercise: Copy the Wordpress 2015 theme. Using Jade and SCSS compiled into HTML and CSS.'
+      },
+
+      {
         name: 'Stock Quote API',
         picture: 'img/stock.png',
         link: 'http://erinpagemd.github.io/stock-api/',
