@@ -2,6 +2,15 @@ if (Meteor.isClient) {
   Template.body.helpers({
     projects: [
       {
+        name: 'Remake of Main Page',
+        picture: 'img/main.png',
+        link: 'http://erinpagemd.github.io/',
+        repo: 'https://github.com/erinpagemd/erinpagemd.github.io',
+        stack: 'HTML, CSS, Git',
+        desc: 'CSS exercise: Copy a website theme. Used gradient and formating of containers.'
+      },
+
+      {
         name: 'Wordpress 2015 practice',
         picture: 'img/wp2015.png',
         link: 'http://erinpagemd.github.io/wordpress2015/',
