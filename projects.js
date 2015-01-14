@@ -2,6 +2,15 @@ if (Meteor.isClient) {
   Template.body.helpers({
     projects: [
       {
+        name: 'SplitSum',
+        picture: 'img/split.png',
+        link: 'http://erinpagemd.github.io/SplitSum/',
+        repo: 'https://github.com/erinpagemd/SplitSum',
+        stack: 'javascript, jquery, css, html',
+        desc: 'Splitting characters in an array and turning them into numbers using javascript. Styling with CSS includes radial-gradient and focus selectors.'
+      },
+
+      {
         name: 'Remake of Main Page',
         picture: 'img/main.png',
         link: 'http://erinpagemd.github.io/',
@@ -152,15 +161,6 @@ if (Meteor.isClient) {
         repo: 'https://github.com/erinpagemd/PushProduct',
         stack: 'javascript, jquery, html, css',
         desc: 'Pushing items into an empty array in javascript.'
-      },
-
-      {
-        name: 'SplitSum',
-        picture: 'img/split.png',
-        link: 'http://erinpagemd.github.io/SplitSum/',
-        repo: 'https://github.com/erinpagemd/SplitSum',
-        stack: 'javascript, jquery, css, html',
-        desc: 'Splitting characters in an array and turning them into numbers using javascript.'
       }
     ]
   });
