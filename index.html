@@ -2,8 +2,10 @@
   <title>Projects</title>
 </head>
 
+
 <body>
   <h1>Projects</h1>
+  <h2>by erin</h2>
 
   <ul>
     {{#each projects}}
@@ -14,8 +16,8 @@
 
 <template name="project">
   <div class='item'>
-    <img src='{{picture}}'/>
     <p id='name'>{{name}}</p>
+    <img src='{{picture}}'/>
     <p><a href='{{link}}'>Website</a></p>
     <p><a href='{{repo}}'>Github Repo</a></p>
     <p>Technologies used: {{stack}}</p>
