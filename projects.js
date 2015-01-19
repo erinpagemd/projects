@@ -2,6 +2,15 @@ if (Meteor.isClient) {
   Template.body.helpers({
     projects: [
       {
+        name: 'PushProduct',
+        picture: 'img/push.png',
+        link: 'http://erinpagemd.github.io/PushProduct/',
+        repo: 'https://github.com/erinpagemd/PushProduct',
+        stack: 'javascript, jquery, html, css',
+        desc: 'Pushing items into an empty array in javascript. Use of PureCSS framework, HTML-Form'
+      },
+
+      {
         name: 'SplitSum',
         picture: 'img/split.png',
         link: 'http://erinpagemd.github.io/SplitSum/',
@@ -152,15 +161,6 @@ if (Meteor.isClient) {
         repo: 'https://github.com/erinpagemd/BankJS',
         stack: 'javascript, css, html',
         desc: 'Using conditionals in javascript.'
-      },
-
-      {
-        name: 'PushProduct',
-        picture: 'img/push.png',
-        link: 'http://erinpagemd.github.io/PushProduct/',
-        repo: 'https://github.com/erinpagemd/PushProduct',
-        stack: 'javascript, jquery, html, css',
-        desc: 'Pushing items into an empty array in javascript.'
       }
     ]
   });
