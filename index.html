@@ -3,16 +3,15 @@
   <title>Projects</title>
 </head>
 
-
 <body>
   <div class='row'>
-    <div class='col-md-4 col-md-offset-4'>
+    <div class='col-md-6 col-md-offset-3'>
       <h1>Projects</h1>
     </div>
-    <div class='col-md-4 col-md-offset-4'>
+    <div class='col-md-6 col-md-offset-3'>
       <h2>by erin</h2>
     </div>
-  </div>
+  </div><!--end of header-->
 
   <ul>
     {{#each projects}}
@@ -21,36 +20,47 @@
   </ul>
 </body>
 
-<template name="project">
-  <div class='row'>
-    <div class='col-md-6 col-md-offset-3'>
-      <h2 id='name'>{{name}}</h2>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='col-md-6 col-md-offset-3'>
-      <img class='img-rounded' alt='awesome project' src='{{picture}}'/>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='col-md-6 col-md-offset-3'>
-      <a href='{{link}}'>Website</a>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='col-md-6 col-md-offset-3'>
-      <a href='{{repo}}'>Github Repo</a>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='col-md-6 col-md-offset-3'>
-      <p>Technologies used: {{stack}}</p>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='col-md-6 col-md-offset-3'>
-      <p>Description: {{desc}}</p>
-    </div>
-  </div>
+<template name='project'>
+  <div class='item'>
+    <div class='row'><!--begin of Project Name-->
+      <div class='col-md-6 col-md-offset-3'>
+        <h3 id='name'>{{name}}</h3>
+      </div>
+    </div><!--end of Project NAME-->
 
+    <div class='row'><!--begin of Project info-->
+      <div class='col-md-6 left'> <!--start of left half of Project info-->
+        <div class='row'><!--image-->
+          <div class='col-md-6 col-md-offset-3'>
+            <img class='img-rounded' alt='awesome project' src='{{picture}}'/>
+          </div>
+        </div>
+
+        <div class='col-md-6 col-md-offset-3'><!--links-->
+          <div class='col-md-6'>
+            <a href='{{link}}'>Website</a>
+          </div>
+          <div class='col-md-6'>
+            <a href='{{repo}}'>Github Repo</a>
+          </div>
+        </div>
+      </div><!-- end of left half of Project Info div-->
+
+      <div class='col-md-6 right'> <!-- start of right half of Project Info-->
+        <div class='row'><!--technologies used-->
+          <div class='col-md-12'>
+            <h4>Technologies used: </h4>
+            <p>{{stack}}</p>
+          </div>
+        </div>
+
+        <div class='row'><!--description-->
+          <div class='col-md-12'>
+            <h4>Description: </h4>
+            <p>{{desc}}</p>
+          </div>
+        </div>
+      </div><!-- end of right half of Project info div-->
+    </div>
+  </div>
 </template>
