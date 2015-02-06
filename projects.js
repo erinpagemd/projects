@@ -12,6 +12,26 @@ if (Meteor.isClient) {
 
       {
 
+        name: 'ActualWeather',
+        picture: 'img/push.png',
+        link: 'https://github.com/erinpagemd/actual-weather',
+        repo: 'https://github.com/erinpagemd/actual-weather',
+        stack: 'javascript, npm, grunt, bower, lodash, ajax, html, jade, css, foundation, sass',
+        desc: 'Writing a getJSON call in javascript without jquery. Practicing with AJAX. Appending to the DOM using javascript.'
+      },
+
+      {
+
+        name: 'NashvilleRecycleCenters',
+        picture: 'img/nash_recycle.png',
+        link: 'https://github.com/erinpagemd/nash-recycle-centers',
+        repo: 'https://github.com/erinpagemd/nash-recycle-centers',
+        stack: 'javascript, npm, grunt, jquery, lodash, html, jade, css',
+        desc: 'Use of the Nashville Open Data Portal. Writing an ajax call and appending to the DOM.'
+      },
+
+      {
+
         name: 'PushProduct',
         picture: 'img/push.png',
         link: 'http://erinpagemd.github.io/PushProduct/',
