@@ -2,11 +2,21 @@ if (Meteor.isClient) {
   Template.body.helpers({
     projects: [
       {
+        name: 'StockMarketApp',
+        picture: 'img/stockMarketApp.png',
+        link: 'http://higgintop.github.io/stockMarketApp/',
+        repo: 'https://github.com/higgintop/stockMarketApp',
+        stack: 'javascript, jquery, lodash, firebase, json, html, css, foundation',
+        desc: 'v1.0.0 takes the user inputs of stock symbol and quantity, makes a get request to the markitondemand api and updates the dom. Next iteration is saving the portfolio to firebase. Made in NSS class with Allison Higginbotham.'
+      },
+
+      {
+
         name: 'PushProduct',
         picture: 'img/push.png',
         link: 'http://erinpagemd.github.io/PushProduct/',
         repo: 'https://github.com/erinpagemd/PushProduct',
-        stack: 'javascript, jquery, html, css',
+        stack: 'javascript, jquery, html, css, pure',
         desc: 'Pushing items into an empty array in javascript. Use of PureCSS framework, HTML-Form'
       },
 
