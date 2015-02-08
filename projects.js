@@ -180,8 +180,8 @@ if (Meteor.isClient) {
         picture: 'img/jquery.png',
         link: 'http://erinpagemd.github.io/jquery-basics/',
         repo: 'https://github.com/erinpagemd/jquery-basics',
-        stack: 'jquery, javascript, css',
-        desc: 'Manipulating css via jquery'
+        stack: 'jquery, javascript, css, skeleton css framework',
+        desc: 'Manipulating CSS and DOM via jquery.'
       },
 
       {
