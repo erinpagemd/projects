@@ -2,6 +2,15 @@ if (Meteor.isClient) {
   Template.body.helpers({
     projects: [
       {
+        name: 'LittleBlackBook',
+        picture: 'img/littleBlackBook.png',
+        link: 'http://erinpagemd.github.io/little-black-book/',
+        repo: 'https://github.com/erinpagemd/little-black-book',
+        stack: 'javascript, jquery, firebase, json, html, css, foundation, mocha, chai, unit-testing',
+        desc: 'Basic CRUD app with login. Firebase login, create new account, and logout. GET, POST, DELETE http requests. Foundation for minimal styling. First crack at logins and user flows. Light test suite with mocha and chai.'
+      },
+
+      {
         name: 'StockMarketApp',
         picture: 'img/stockMarketApp.png',
         link: 'http://higgintop.github.io/stockMarketApp/',
