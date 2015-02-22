@@ -2,6 +2,24 @@ if (Meteor.isClient) {
   Template.body.helpers({
     projects: [
       {
+        name: 'NerdTree',
+        picture: 'img/nerdTree.png',
+        link: 'http://erinpagemd.github.io/nerd-tree',
+        repo: 'https://github.com/erinpagemd/nerd-tree',
+        stack: 'javascript, underscore, jquery, firebase, json, html, css, bootstrap',
+        desc: 'Basic CRUD app with login. Firebase login, create new account, and logout. Using Firebase requests used for retrieving, posting, deleting, and modifying data. Bootstrap for minimal styling.'
+      },
+
+      {
+        name: 'HoneyDew',
+        picture: 'img/toDoFB.png',
+        link: 'http://erinpagemd.github.io/to-do/',
+        repo: 'https://github.com/erinpagemd/to-do',
+        stack: 'javascript, jquery, firebase, json, html, css, bootstrap, mocha, karma, chai, unit-testing',
+        desc: 'Basic CRUD app with login. Firebase login, create new account, and logout. GET, POST, DELETE http requests. Bootstrap for minimal styling. Build script and more advanced config settings. Test suite with mocha, chai, and karma.'
+      },
+
+      {
         name: 'LittleBlackBook',
         picture: 'img/littleBlackBook.png',
         link: 'http://erinpagemd.github.io/little-black-book/',
