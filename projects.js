@@ -2,6 +2,24 @@ if (Meteor.isClient) {
   Template.body.helpers({
     projects: [
       {
+        name: 'BattleSipps',
+        picture: 'img/battlesipps.png',
+        link: 'https://battlesipps.firebaseapp.com/',
+        repo: 'https://github.com/brayhoward/battle-ship',
+        stack: 'javascript, jquery, lodash, firebase, json, html, css, bootstrap',
+        desc: '2-player battlehip game using a game object that communicates back and forth with firebase. Play on 2 computers. Paired programming exercise with Brandon Howard, Molly Black, and Dotun Olusoga for Front End Dev session.'
+      },
+
+      {
+        name: 'Game Won',
+        picture: 'img/game1.png',
+        link: 'https://game-won.firebaseapp.com/?',
+        repo: 'https://github.com/brayhoward/game1',
+        stack: 'javascript, jquery, firebase, json, html, css, bootstrap',
+        desc: 'Tic-Tac-Toe game using a game object that communicates back and forth with firebase. Paired programming exercise with Brandon Howard for Front End Dev session. Used ScreenHero for off-site collaboration.'
+      },
+
+      {
         name: 'Chismosas',
         picture: 'img/chismosas.png',
         link: 'http://erinpagemd.github.io/chismosas',
